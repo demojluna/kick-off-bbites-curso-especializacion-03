@@ -3,7 +3,7 @@ pragma solidity 0.8.21;
 
 contract MiPrimerContrato {
     string saludo;
-    string nombreYApellido = "Lee Marreros";
+    string nombreYApellido = "Jhosep Luna";
 
     function set(string memory _nuevoSaludo) public {
         saludo = _nuevoSaludo; // no se necesita 'this'
